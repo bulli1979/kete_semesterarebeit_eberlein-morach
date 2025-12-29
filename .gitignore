@@ -63,6 +63,8 @@ dokumentation/*.png
 
 # SageMaker
 modelsagemaker/events.out.tfevents.*
+modelsagemaker/*.pkl
+modelsagemaker/model.ckpt
 
 # Lambda
 lambda-hatespeech/node_modules/
