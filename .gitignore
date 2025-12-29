@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Modelle und große Dateien
+*.safetensors
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.onnx_data
+*.tar.gz
+*.zip
+model.tar.gz
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ergebnisse und Checkpoints
+notebook/results_*/
+notebook/validation_results/
+*.csv
+!data/*.csv
+
+# Dokumentation (optional - kann auch committed werden)
+dokumentation/*.png
+
+# Temporäre Dateien
+*.log
+*.tmp
+*.temp
+
+# SageMaker
+modelsagemaker/events.out.tfevents.*
+
+# Lambda
+lambda-hatespeech/node_modules/
+lambda-hatespeech/*.zip
+
+
