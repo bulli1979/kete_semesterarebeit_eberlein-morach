@@ -1,1 +1,26 @@
-{"class_name": "MultiModalPredictor", "column_types": {"label": "categorical", "text": "text"}, "label_column": "label", "problem_type": "binary", "eval_metric_name": "accuracy", "validation_metric_name": "accuracy", "output_shape": 2, "classes": null, "save_path": "/opt/ml/model", "pretrained_path": null, "version": "0.6.1"}
+{
+  "class_name": "MultiModalPredictor",
+  "learner_class": "BaseLearner",
+  "presets": null,
+  "pretrained": false,
+  "fit_called": true,
+  "minmax_mode": false,
+  "best_score": null,
+  "best_config": null,
+  "total_train_time": null,
+  "minmax_scaler": null,
+  "scaler": null,
+  "column_types": {
+    "labels": "categorical",
+    "text": "text"
+  },
+  "label_column": "labels",
+  "problem_type": "multiclass",
+  "eval_metric_name": "accuracy",
+  "validation_metric_name": "accuracy",
+  "output_shape": 3,
+  "classes": null,
+  "save_path": "/opt/ml/model",
+  "pretrained_path": null,
+  "version": "0.6.1"
+}
