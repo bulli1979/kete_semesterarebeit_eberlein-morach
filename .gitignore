@@ -65,6 +65,8 @@ dokumentation/*.png
 modelsagemaker/events.out.tfevents.*
 modelsagemaker/*.pkl
 modelsagemaker/model.ckpt
+modelsagemaker/data_processors.pkl
+modelsagemaker/df_preprocessor.pkl
 
 # Lambda
 lambda-hatespeech/node_modules/
