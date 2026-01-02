@@ -345,7 +345,7 @@ Dieses Projekt wurde im Rahmen eines Master-Studiums erstellt.
 
 ## 👥 Autoren
 
-- Erstellt für KETE (Kurs für Enterprise Technology)
+- Erstellt für KETE (Key Technology)
 
 ## 📞 Kontakt
 
