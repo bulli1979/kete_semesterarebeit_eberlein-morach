@@ -1,0 +1,34 @@
+{
+  "name": "hatespeech-demo",
+  "version": "1.0.0",
+  "description": "Hatespeech Detection Demo Application",
+  "main": "dist/main/main.js",
+  "scripts": {
+    "build": "npm run build:main && npm run build:preload && npm run build:renderer",
+    "build:main": "tsc",
+    "build:preload": "tsc --project tsconfig.preload.json",
+    "build:renderer": "vite build",
+    "dev": "concurrently \"npm run dev:renderer\" \"npm run dev:main\" \"npm run dev:preload\"",
+    "dev:renderer": "vite",
+    "dev:main": "tsc -w",
+    "dev:preload": "tsc --project tsconfig.preload.json -w",
+    "start": "electron .",
+    "electron": "electron ."
+  },
+  "dependencies": {
+    "@huggingface/tokenizers": "^0.0.4",
+    "onnxruntime-node": "^1.23.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "concurrently": "^8.2.2",
+    "electron": "^28.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
